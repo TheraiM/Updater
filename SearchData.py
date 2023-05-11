@@ -12,12 +12,7 @@ def main():
 
     # find all div elements with the class "page-content-listing single-page"
     divs = soup.find_all('div', class_='page-content-listing single-page')
-
-    # loop through each div element and print its text
-    #for div in divs:
-    #    text = div.get_text(strip=True)
-    #    print(text)
-
+    
     for div in divs:
         link = div.find('a')
         if link is not None:

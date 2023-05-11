@@ -2,8 +2,6 @@ import requests
 from bs4 import BeautifulSoup
 
 def main():
-    #res = requests.get('https://m0nkeybra1nz.github.io/')
-
     #Pull data from the website link
     res = requests.get('https://www.mangaread.org/manga/solo-leveling-manhwa/')
 
